@@ -9,8 +9,6 @@ python:
   - "3.9-dev"
   - "pypy3"
 
-# Use container-based infrastructure
-sudo: false
 
 before_install:
 - pip install poetry
@@ -24,8 +22,7 @@ script:
   - coverage run --source=rekishikon --omit=rekishikon/tests/* -m unittest discover
 
 after_success:
- - pip install coveralls
- - coveralls
+- bash <(curl -s https://codecov.io/bash)
 
 after_script:
  - coverage report
