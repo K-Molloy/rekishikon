@@ -3,7 +3,7 @@ import unittest
 import six
 from six.moves import xrange
 
-from langdetect.utils.lang_profile import LangProfile
+from rekishikon.utils import LangProfile
 
 
 class LangProfileText(unittest.TestCase):

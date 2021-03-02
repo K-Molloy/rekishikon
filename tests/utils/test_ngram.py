@@ -2,7 +2,7 @@ import unittest
 
 import six
 
-from langdetect.utils.ngram import NGram
+from rekishikon.utils import NGram
 
 
 class NGramTest(unittest.TestCase):
