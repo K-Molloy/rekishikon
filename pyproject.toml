@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "rekishikon"
-version = "0.1.0"
+version = "0.2.0"
 description = "A simple Language Detection Library"
 authors = ["K-Molloy <kieran.b.molloy@outlook.com>"]
 readme = 'README.rst'
